@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="main-div">
+        <div class="container">
+            <h1 align="center">Weather Forcast</h1>
+            <div align="center" class="selectcity">
+                <form>
+                    <input type="text" name="cname" id="cityName" placeholder="Enter City Name" size="24" autofocus>
+                    <input type="button" name="submit" value="Get Weather" class="fetchbtn" onclick="fetchCityName()">
+                </form>
+            </div>
+            <div class="cld-div">
+                <h2 id="city"><i class="w3-xlarge fa fa-thermometer-empty" aria-hidden="true"> </i>Temp :&nbsp;</h5>
+                <h2 id="temp"><i class="w3-xlarge fa fa-map-marker" aria-hidden="true"> </i>City :&nbsp;</h2>
+                <h2 id="humidity"><i class="w3-xlarge fa fa-tint" aria-hidden="true"> </i>Humidity :&nbsp;</h2>
+                <h2 id="wind"><i class="w3-xlarge fa fa-angle-double-right" aria-hidden="true"> </i>Wind Speed :&nbsp;</h2>
+            </div>
+        </div>
+    </div>
+    
+    <script src="weather.js"></script>
+</body>
+</html>

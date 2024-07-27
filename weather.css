@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+.main-div{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://www.videosoftdev.com/images/video_editor/how-to/raindrops/sharper.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    height: 550px;
+    width: 400px;
+    border-radius: 30px;
+    padding: 45px;
+    background-image: linear-gradient(to bottom left, rgb(87, 108, 122) ,rgb(39, 48, 81));
+}
+.selectcity{
+    margin-top: 40px;
+    font-size: 20px;
+}
+#cityName{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 7px;
+}
+.fetchbtn{
+    background-color: rgb(148, 159, 190);
+    height: 30px;
+    width: 100px;
+    color: beige;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.cld-div{
+    margin-top: 70px;
+    line-height: 60px;
+}
